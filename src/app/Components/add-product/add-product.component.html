@@ -1,0 +1,21 @@
+@if (editUserId) {
+    <h2>Update Product</h2>
+}
+@else {
+    <h2>Add Product</h2>
+}
+
+
+<form [formGroup]="addProduct" >
+    <input type="text" placeholder="Product Name" formControlName="name" />
+    <input type="text" placeholder="Quantity" formControlName="quantity" />
+    <input type="text" placeholder="Price" formControlName="price" />
+
+    @if (editUserId) {
+    <button (click)="updateData()" >Update </button>
+}
+@else {
+    <button (click)="addItem()">Add </button>
+}
+</form>
++

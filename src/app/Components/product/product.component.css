@@ -1,0 +1,16 @@
+.even-row {
+    background-color: #f2f2f2;
+  }
+  .odd-row {
+    background-color: #ffffff;
+  }
+  button{
+    background-color: gray;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: goldenrod;
+    }
+  }

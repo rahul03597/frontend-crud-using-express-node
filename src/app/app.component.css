@@ -1,0 +1,23 @@
+.header-main{
+    text-align: center;
+    color: blueviolet;
+}
+hr{
+    border: 1px solid blueviolet;
+}
+nav{
+    background-color: blueviolet;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: goldenrod;
+}
